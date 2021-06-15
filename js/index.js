@@ -11,26 +11,26 @@ $("#owl1").owlCarousel({
       0: {
         margin: 10,
         items: 1,
-        nav: true,
+        nav: false,
         dots: true,
       },
       600: {
         margin: 10,
         items: 2,
-        nav: true,
+        nav: false,
         dots: false,
       },
       1024: {
         margin: 60,
         items: 1,
-        nav: true,  
+        nav: false,  
         loop: false,
-        dots: false,
+        dots: true,
       },
     },
   });
 
-  $("#owl3").owlCarousel({
+  $("#owl2").owlCarousel({
     autoplayTimeout: 3000,
     autoplayHoverPause: true,
     autoplaySpeed: 1000, 
@@ -48,7 +48,7 @@ $("#owl1").owlCarousel({
         margin: 10,
         items: 2,
         nav: true,
-        dots: false,
+        dots: true,
       },
       1024: {
         margin: 60,
@@ -94,7 +94,7 @@ grecaptcha.ready(function() {
 
 
 
-console.log($('.boxFile').hasClass('attached'))
+
 
 
 
@@ -104,7 +104,7 @@ const item = document.querySelectorAll('#item')
 const itemPane = document.querySelectorAll('#item-pane')
 
 
-for (let i = 0; i < 7; i++) {
+for (let i = 1; i < 7; i++) {
   $(`#item${i}`).hover(
     function() {
       $(`#item-pane${i}`).animate({'height':'100%'},600)
@@ -121,7 +121,6 @@ for (let i = 0; i < 7; i++) {
 const ratings = {
   review1 : 4.5,
   review2 : 5,
-  review3 : 1.9
 };
 
 // total number of stars
@@ -130,6 +129,6 @@ const starTotal = 5;
 for(const rating in ratings) {  
   const starPercentage = (ratings[rating] / starTotal) * 100;
   const starPercentageRounded = `${(Math.round(starPercentage / 10) * 10)}%`;
-  console.log(rating)
+  
   document.querySelector(`.${rating} .stars-inner`).style.width = starPercentageRounded; 
 }

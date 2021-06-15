@@ -114,32 +114,33 @@
   <!--BANNER-->
   <div class="banner">
     <div id="owl1" class=" owl-carousel owl-theme">
-      <div class="item">
+      <div class="item p-3">
         <div class="item-banner-home text-end p-4">
           <h3 class="item-title-home mo-42">Potenciamos las capacidades de los profesionales en obras civiles</h3>
           <button class="btn-banner-home">Consultanos</button>
         </div>
-        
       </div>
-      <div class="item">
-        <div class="item-banner-home">
-          <h3 class="mo-42 text-white fw-bolder">Potenciamos las capacidades de los profesionales en obras civiles</h3>
+      <div class="item p-3">
+        <div class="item-banner-home text-end p-4">
+          <h3 class="item-title-home mo-42">Potenciamos las capacidades de los profesionales en obras civiles</h3>
           <button class="btn-banner-home">Consultanos</button>
         </div>
-        
+      </div>
+      <div class="item p-3">
+        <div class="item-banner-home text-end p-4">
+          <h3 class="item-title-home mo-42">Potenciamos las capacidades de los profesionales en obras civiles</h3>
+          <button class="btn-banner-home">Consultanos</button>
+        </div>
       </div>
     </div>
   </div>
- 
-
   <!--SECCIONES-->
   <div class="max-w">
-
     <div class="conntainer d-flex">
       <img class="mx-auto my-4" src="./img/inicio/down-arrow.png" alt="">
     </div>
     <!--SECCION 1-->
-    <div class="container space sec-1">
+    <div class="container sec-1">
       <div class="row">
         <div class="col-sm-6 py-5 px-5">
           <h2 class="mo-32 color text-start">Somos DovelPontem</h2>
@@ -195,7 +196,7 @@
                 conocimiento y la experiencia de referentes en el rubro.</p>
               <button class="btn-item fw-bold ">Ver más</button>
             </div>
-            <div id="item-pane1" class=" d-flex item-sec-pane flex-column ">
+            <div id="item-pane1" class=" d-flex item-pane flex-column ">
               <h3 class="mo-28 text-center  mt-5 px-5 color fw-bold">Diplomaturas</h3>
               <p class="mo-16 text-center mb-0 px-4">Alcanzá el siguiente nivel en tu carrera con el
                 conocimiento y la experiencia de referentes en el rubro.</p>
@@ -318,32 +319,31 @@
     <!--SECCION 4-->
     <div class="container space sec-3">
       <div class="row">
-        <div class="col-sm-6">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/wiCAKR_zxLU" title="YouTube video player"
-            frameborder="0"
+        <div class="col-sm-6 d-flex">
+          <iframe class="my-auto" width="560" height="315" src="https://www.youtube.com/embed/wiCAKR_zxLU"
+            title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
         </div>
         <div class="col-sm-5">
-          <div id="owl3" class="owl-carousel ">
-            <div class="item review1">
-              <p class="mo-16 color">¡Recomendable!</p>
-              <div class="stars-outer pb-3">
+          <div id="owl2" class="owl-carousel owl-theme mx-3">
+            <div class="item item-review review1 d-flex justify-content-between flex-column">
+              <p class="mo-16 color m-0">¡Recomendable!</p>
+              <div class="stars-outer ">
                 <div class="stars-inner"></div>
               </div>
-              <p class="mo-16 mb-5">Aprendí a analizar y gestionar, de la mano de los que mejor saben. ¡Lo recomiendo
+              <p class="mo-16 m-0">Aprendí a analizar y gestionar, de la mano de los que mejor saben. ¡Lo recomiendo
                 sin dudarlo!</p>
-              <p class="mo-16 fw-bold">Gastón Trotta BIM Management</p>
-
+              <p class="mo-16 m-0 fw-bold">Gastón Trotta BIM Management</p>
             </div>
-            <div class="item review2">
+            <div class="item item-review review2 d-flex justify-content-between flex-column">
               <p class="mo-16 color">¡Excelente!</p>
-              <div class="stars-outer pb-3">
+              <div class="stars-outer m-0">
                 <div class="stars-inner"></div>
               </div>
-              <p class="mo-16 mb-5">Una experiencia genial. Aprendí muchas herramientas y recursos de forma práctica y
+              <p class="mo-16 m-0">Una experiencia genial. Aprendí muchas herramientas y recursos de forma práctica y
                 simple para trabajar todos los días.</p>
-              <p class="mo-16 fw-bold">Florencia García Estudiante DGP</p>
+              <p class="mo-16 m-0 fw-bold">Florencia García Estudiante DGP</p>
             </div>
           </div>
         </div>
@@ -358,9 +358,10 @@
             información detallada de nuestras <span class="fw-bold">formaciones y servicios.</span></p>
           <img class="form-logo my-5" src="./img/inicio/logo-menunav.svg" alt="logo Dovel">
           <div>
-            <img src="./img/inicio/instagram-1.svg" alt="instagram">
-            <img src="./img/inicio/Youtube-1.svg" alt="Youtube">
-            <img src="./img/inicio/linkedin.svg" alt="linkedin">
+            <a href="https://www.instagram.com/dovelpontem/"><img src="./img/inicio/instagram-1.svg"
+                alt="instagram"></a>
+            <a href=""><img src="./img/inicio/Youtube-1.svg" alt="Youtube"></a>
+            <a href=""><img src="./img/inicio/linkedin.svg" alt="linkedin"></a>
           </div>
         </div>
         <div class="col-sm sec8-1">
@@ -387,9 +388,14 @@
                   <textarea class="mo-16" rows="14" name="mensaje" placeholder="¿Cuál es tu consulta?"></textarea>
                   <span id="error" class="help-block"></span>
                 </div>
-                <div class="form-group mb-2">
-                  <button class="mo-16 btn-form" type="submit">
-                    Consultanos</button>
+                <div class="form-group mt-2">
+                  <div class="d-flex ">
+                    <button class="mo-16 btn-form" type="submit">
+                      Consultanos</button>
+                    <a href="https://wa.me/3517685301"><img class="img-form" src="./img/inicio/button-whatsapp.png"
+                        alt="Whatsapp"></a>
+                  </div>
+
                 </div>
                 <input type="hidden" name="token" id="google-response">
               </form>
@@ -404,24 +410,25 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-3 pt-4">
-          <form method="post" class="" id="formulario-contacto" role="form" autocomplete="on" enctype="multipart/form-data">
+          <form method="post" class="" id="formulario-contacto" role="form" autocomplete="on"
+            enctype="multipart/form-data">
             <div class="form-group my-2">
               <label class="mo-14 color mb-3" for="">Suscribite aquí para conocer nuestras novedades</label>
               <input class="mo-16 mb-3" type="email" name="email" placeholder="nombre@mail.com" />
               <span id="error" class="help-block"></span>
             </div>
           </form>
-             
+
         </div>
         <div class="col-sm-3 pt-4">
-                  </div>
+        </div>
         <div class="col-sm-2 pt-4">
           <p class="mo-16 color fw-bold mb-3">Formaciones</p>
           <p class="mo-16 text-white">Diplomaturas</p>
           <p class="mo-16 text-white">Cursos</p>
           <p class="mo-16 text-white">Workshops</p>
         </div>
-        <div class="col-sm-2 pt-4">   
+        <div class="col-sm-2 pt-4">
           <p class="mo-16 color fw-bold mb-3">Servicios</p>
           <p class="mo-16 text-white">Consultoría</p>
           <p class="mo-16 text-white">Asesoramiento</p>
@@ -437,15 +444,17 @@
       </div>
       <div class="row">
         <div class="d-flex justify-content-between">
-          <img class="footer-logo my-2" src="./img/inicio/logo-footer.svg" alt="Dobel logo"> 
-        <div class="d-flex align-content-center">
-        <img src="./img/inicio/instagram-grey.svg" alt="instagram"> <span class="text-white my-auto  mo-18 mx-2">|</span> 
-        <img src="./img/inicio/Youtube-grey.svg" alt="Youtube"><span class="text-white my-auto mo-18 mx-2">|</span> 
-        <img src="./img/inicio/linkedin-grey.svg" alt="linkedin">
+          <img class="footer-logo my-2" src="./img/inicio/logo-footer.svg" alt="Dobel logo">
+          <div class="d-flex align-content-center">
+            <a href="https://www.instagram.com/dovelpontem/"><img src="./img/inicio/instagram-grey.svg"
+                alt="instagram"></a><span class="text-white my-auto  mo-18 mx-2">|</span>
+            <a href=""><img src="./img/inicio/Youtube-grey.svg" alt="Youtube"></a><span
+              class="text-white my-auto mo-18 mx-2">|</span>
+            <a href=""><img src="./img/inicio/linkedin-grey.svg" alt="linkedin"></a>
+          </div>
         </div>
-        </div>
-        
-        
+
+
       </div>
     </div>
   </div>
