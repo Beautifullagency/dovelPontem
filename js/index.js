@@ -23,7 +23,7 @@ $("#owl1").owlCarousel({
       1024: {
         margin: 60,
         items: 1,
-        nav: false,  
+        nav: true,  
         loop: false,
         dots: true,
       },
@@ -51,7 +51,7 @@ $("#owl1").owlCarousel({
         dots: true,
       },
       1024: {
-        margin: 60,
+        margin: 10,
         items: 2,
         nav: true,  
         dots: true,
@@ -123,12 +123,11 @@ const ratings = {
   review2 : 5,
 };
 
-// total number of stars
+//total number of stars
 const starTotal = 5;
 
 for(const rating in ratings) {  
   const starPercentage = (ratings[rating] / starTotal) * 100;
   const starPercentageRounded = `${(Math.round(starPercentage / 10) * 10)}%`;
-  
   document.querySelector(`.${rating} .stars-inner`).style.width = starPercentageRounded; 
 }

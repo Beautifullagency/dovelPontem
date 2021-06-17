@@ -43,7 +43,10 @@ ul {
   list-style: none;
   padding-left: 0 !important;
 }
-
+a {
+  text-decoration: none !important;
+  color: initial !important;
+}
 /*FUENTES*/
 /*moNIT*/
 .mo-54 {
@@ -161,8 +164,8 @@ ul {
 }
 #owl1 {
   margin: auto 10% auto auto;
-  width: 40%;
-  height: 330px;
+  width: 50%;
+  height: 350px;
   background: #C9A967 0% 0% no-repeat padding-box;
   opacity: 1;
   mix-blend-mode: multiply;
@@ -181,29 +184,35 @@ ul {
   border: #fff solid 2px;
 }
 #owl1 .owl-nav{
-  position: absolute;
-  top: 0;
+    
   bottom: 0;
   width: 100%;
-  font-size: 100px;
+  font-size: 40px;
 }
 #owl1.owl-carousel .owl-nav button.owl-next {
   position: absolute;
-  top: 0;
   bottom: 0;
-  right: 0px;
-  
+  left: 100px;  
 }
+#owl1.owl-carousel .owl-nav button.owl-next span , #owl1.owl-carousel  .owl-nav button.owl-prev span{
+ color: #fff;
+}
+#owl1.owl-carousel  .owl-nav button.owl-prev {
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+ }
+
+
 .owl-theme .owl-nav [class*=owl-]:hover {
   background:transparent !important;
   color: #FFF;
   text-decoration: none;
 }
-#owl1.owl-carousel  .owl-nav button.owl-prev {
- position: absolute;
- top: 0;
- bottom: 0;
- left: 0px;
+#owl1 .item {
+  width: 80%;
+    margin-right: 0;
+    margin-left: auto;
 }
 
 .item-banner-home { 
@@ -325,15 +334,16 @@ ul {
 }
 
 
-
 .stars-outer {
   display: inline-block;
   position: relative;
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free";
 }
 
 .stars-outer::before {
-  content: "\f006 \f006 \f006 \f006 \f006";
+  margin: 0 auto 0 auto;
+  content: "\f005 \f005 \f005 \f005 \f005";
+  color: #000000 !important;
 }
 
 .stars-inner {
@@ -346,23 +356,13 @@ ul {
 }
 
 .stars-inner::before {
-  content: "\f005 \f005 \f005 \f005 \f005";
+  content: "\f005 \f005 \f005 \f005 \f005 ";
   color: #f8ce0b;
 }
 
-.attribution {
-  font-size: 12px;
-  color: #444;
-  text-decoration: none;
-  text-align: center;
-  position: fixed;
-  right: 10px;
-  bottom: 10px;
-  z-index: -1;
-}
 
 .item-review {
-  height: 370px;
+  height: 330px;
   background-color: #fff;
   padding: 20px;
 }
