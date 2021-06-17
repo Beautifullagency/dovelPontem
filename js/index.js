@@ -16,7 +16,7 @@ $("#owl1").owlCarousel({
       },
       600: {
         margin: 10,
-        items: 2,
+        items: 1,
         nav: false,
         dots: false,
       },
@@ -121,6 +121,7 @@ for (let i = 1; i < 7; i++) {
 const ratings = {
   review1 : 4.5,
   review2 : 5,
+  review3 : 5,
 };
 
 //total number of stars

@@ -47,6 +47,9 @@ a {
   text-decoration: none !important;
   color: initial !important;
 }
+.grecaptcha-badge {
+  display: none !important;
+}
 /*FUENTES*/
 /*moNIT*/
 .mo-54 {
@@ -118,17 +121,12 @@ a {
 #error {
   color: #e10717;
 }
-@media (min-width: 769px) {
-  .escritorio {
-    visibility: visible;
-  }
-  .mobil {
-    visibility: hidden;
-    height: 0;
-    margin-bottom: 0 !important;
+@media (min-width: 768px) {
+  .space {
+    margin-top: 80px ;
   }
   .space2 {
-    margin-top: 70px !important;
+    margin-top: 60px;
   }
   .icon-wp {
     width: 70px;
@@ -136,16 +134,11 @@ a {
   }
 }
 @media (max-width: 426px) {
-  .escritorio {
-    visibility: collapse;
-    height: 0;
-    margin-bottom: 0 !important;
-  }
-  .mobil {
-    visibility: visible;
+  .space {
+    margin-top: 80px ;
   }
   .space2 {
-    margin-top: 30px !important;
+    margin-top: 30px ;
   }
   .icon-wp {
     width: 50px;
@@ -367,6 +360,35 @@ a {
   padding: 20px;
 }
 
+#owl2.owl-theme .owl-dots .owl-dot.active span, #owl2.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #C9A967;
+}
+#owl2.owl-theme .owl-dots .owl-dot span {
+  border: solid 2px #C9A967;
+  background-color: #fff;
+}
+#owl2 .owl-nav{
+  top: 0;
+  width: 100%;
+  font-size: 40px;
+}
+#owl2.owl-carousel .owl-nav button.owl-next {
+ position: absolute;
+ top: 0;
+ bottom:0;
+ right: -30px;
+}
+#owl2.owl-carousel .owl-nav button.owl-next span , #owl2.owl-carousel  .owl-nav button.owl-prev span{
+ color: #757575;
+ font-size: 52px;
+}
+#owl2.owl-carousel  .owl-nav button.owl-prev {
+  position: absolute;
+  top: 0;
+  bottom:0;
+  left: -30px;
+ }
+
 
 form {
   margin: 0 auto;
@@ -393,7 +415,7 @@ textarea {
 input:focus,
 textarea:focus {
   outline: none;
-  border: 1px solid#312783;
+  border: 1px solid#C9A967;
 }
 textarea {
   vertical-align: top;
@@ -421,6 +443,51 @@ textarea {
 }
 .footer{
   width: 100%;
-  height: 320px;
   background-color: #343A40;
 }
+.btn-form-footer{
+  height: 40px !important;
+  width: 45px !important;
+  background-color: #C9A967 ;
+  border-radius: 1000px;
+  border: none;
+  background-image: url('../img/inicio/button-send.png');
+  background-size: 40px 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+
+
+
+@media (max-width: 769px) {
+  /*FUENTES*/
+/*moNIT*/
+.mo-54 {
+  font-size: min(4vw, 30px);
+}
+.mo-42 {
+  font-size: min(4vw, 32px);
+}
+.mo-28 {
+  font-size: min(4vw, 28px);
+}
+.mo-18 {
+  font-size: min(3.3vw, 18px);
+}
+.mo-32 {
+  font-size: min(9vw, 32px);
+}
+.mo-16 {
+  font-size: min(1.8vw, 16px);
+}
+.mo-14 {
+  font-size: min(9vw, 14px);
+}
+.item-sec {
+  height: 400px;
+}
+.btn-item {
+  margin: 10px auto 15px auto;
+}
+} 
