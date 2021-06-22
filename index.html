@@ -11,6 +11,7 @@
 
 
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/banners.css">
   <!--GOOGLE FONTS-->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital@0;1&display=swap" rel="stylesheet">
@@ -35,14 +36,14 @@
 </head>
 
 <body id="home">
-  <nav class="navbar navbar-expand-md navbar-withe fixed-top ">
-    <div class="container-fluid max-w">
+  <nav class="navbar navbar-expand-lg navbar-light  fixed-top ">
+    <div class="container-fluid max-w" style="background: #F5F5F5;">
       <a class="navbar-brand" href="index.html"><img src="./img/inicio/logo-menunav.svg" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse ps-3" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item mo-14">
             <a class="nav-link mo-14 active " aria-current="page" href="./index.html">Home</a>
@@ -112,24 +113,30 @@
     </div>
   </nav>
   <!--BANNER-->
-  <div class="banner">
+  <div id="banner" class="slide1">
     <div id="owl1" class=" owl-carousel owl-theme ">
-      <div class="item p-3">
-        <div class="item-banner-home text-end p-4">
+      <div data-slide="1" class="item pt-4 pe-4">
+        <div class="item-banner-home text-end pt-4  d-flex justify-content-around flex-column ">
           <h3 class="item-title-home mo-42">Potenciamos las capacidades de los profesionales en obras civiles</h3>
-          <button class="btn-banner-home">Consultanos</button>
+          <button class="btn-banner-home mo-16">Consultanos</button>
         </div>
       </div>
-      <div class="item p-3">
-        <div class="item-banner-home text-end p-4">
-          <h3 class="item-title-home mo-42">Potenciamos las capacidades de los profesionales en obras civiles</h3>
-          <button class="btn-banner-home">Consultanos</button>
+      <div data-slide="2" class="item pt-4 pe-4">
+        <div class="item-banner-home text-end pt-4 d-flex justify-content-around flex-column ">
+          <h3 class="item-title-home mo-42">Asesoramiento y formación en el desarrollo de obras civiles.</h3>
+          <button class="btn-banner-home mo-16">Consultanos aquí</button>
         </div>
       </div>
-      <div class="item p-3">
-        <div class="item-banner-home text-end p-4">
-          <h3 class="item-title-home mo-42">Potenciamos las capacidades de los profesionales en obras civiles</h3>
-          <button class="btn-banner-home">Consultanos</button>
+      <div data-slide="3" class="item pt-4 pe-4">
+        <div class="item-banner-home text-end pt-4 d-flex justify-content-around flex-column ">
+          <h3 class="item-title-home mo-42">Experiencia, conocimiento y referentes que acompañarán tu crecimiento.</h3>
+          <button class="btn-banner-home mo-16">Consultar</button>
+        </div>
+      </div>
+      <div data-slide="4" class="item pt-4 pe-4">
+        <div class="item-banner-home text-end pt-4 d-flex justify-content-around flex-column ">
+          <h3 class="item-title-home mo-42">Experiencia, conocimiento y referentes que acompañarán tu crecimiento.</h3>
+          <button class="btn-banner-home mo-16">Consultanos aquí</button>
         </div>
       </div>
     </div>
@@ -142,7 +149,7 @@
     <!--SECCION 1-->
     <div class="container sec-1">
       <div class="row">
-        <div class="col-sm-6 py-5 px-5">
+        <div class="col-sm-6 py-5 px-4">
           <h2 class="mo-32 color text-start">Somos DovelPontem</h2>
           <p class="mo-16 mb-0 text-sm-start text-center mb-3">Creamos una plataforma colaborativa integrada por
             profesionales de la arquitectura, ingeniería y construcción, orientada a la prestación de servicios de
@@ -325,7 +332,7 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
         </div>
-        <div class="col-sm-5">
+        <div class="col-sm-5 ">
           <div id="owl2" class="owl-carousel owl-theme mx-3">
             <div class="item item-review review1 d-flex justify-content-between flex-column">
               <div>
@@ -417,7 +424,7 @@
         </div>
         <div class="col-sm sec8-1">
           <div class="cat-form v-align" id="contact">
-            <div class="cat-form-1">
+            <div class="cat-form-1 mx-auto">
               <form method="post" id="formulario-contacto" role="form" autocomplete="on" enctype="multipart/form-data">
                 <div class="form-group has-success mb-2">
                   <label class="mo-14" for="">Nombre</label>
