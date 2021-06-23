@@ -29,15 +29,18 @@
 .btn-sec-2-1 {
   background: #fff;
   border-radius: 25px;
-  width: 80%;
+  width: 100%;
   color: #f16550;
   border: none;
   padding: 5px 0px;
 }
+.sec-2-1 a , .sec-2-2 a{
+  width: 80%;
+}
 .btn-sec-2-2 {
   background: #fff;
   border-radius: 25px;
-  width: 80%;
+  width: 100%;
   color: #f16550;
   border: #f16550 solid 1px;
   padding: 5px 0px;
