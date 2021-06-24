@@ -25,7 +25,7 @@
   }
 
 
-
+/*DIPLOMATURAS*/
 #diplo-dae #banner {
     margin-top: 71px;
     width: 100%;
@@ -82,3 +82,46 @@
       background-repeat: no-repeat;  
     }
   }
+
+  /*REVIT*/
+
+  #revit-inicial #banner {
+    margin-top: 71px;
+    width: 100%;
+    height: 350px;
+    background: url("../img/revit-inicial/header-revitinicial.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #fff;
+  }
+  @media (max-width: 425px) {
+    #revit-inicial .banner {
+      background: url('../img/revit-inicial/header-revitinicial.png');
+      background-size: cover;
+      background-repeat: no-repeat;  
+    }
+  }
+
+
+  #revit-mep #banner {
+    margin-top: 71px;
+    width: 100%;
+    height: 350px;
+    background: url("../img/revit-mep/header-revitmep.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #fff;
+  }
+  @media (max-width: 425px) {
+    #revit-mep .banner {
+      background: url('../img/revit-mep/header-revitmep.png');
+      background-size: cover;
+      background-repeat: no-repeat;  
+    }
+  }
+
+  

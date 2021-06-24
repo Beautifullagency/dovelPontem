@@ -1,12 +1,12 @@
 /*SECCION 1*/
-#diplo-bim .sec-1 {
+#revit-inicial .sec-1 {
     background-color: transparent;
   }
   
-  #diplo-bim .cat1-img {
-    background-image: url('../img/diplomatura-bim/logo-diplobim.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
+  #revit-inicial .cat1-img {
+    background-image: url('../img/revit-inicial/logo-revitinicial.svg');
+    background-size: CONTAIN;
+    background-repeat: no-repeat;   
   }
   
   .sec-2-1 {
@@ -30,7 +30,10 @@
   .sec-2-1 a , .sec-2-2 a{
     width: 80%;
   }
-  
+  .sec-2-2 img {
+      width: 150px;
+      height: 150px;
+  }
   .btn-sec-2-1 {
     background: #fff;
     border-radius: 25px;
