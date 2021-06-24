@@ -48,7 +48,7 @@ $("#owl2").owlCarousel({
     0: {
       margin: 10,
       items: 2,
-      nav: true,
+      nav: false,
       dots: true,
     },
     600: {

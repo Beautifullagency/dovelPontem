@@ -38,10 +38,12 @@
     color: #fff;
   }
   @media (max-width: 425px) {
-    #diplo-dae .banner {
+    #diplo-dae #banner {
       background: url('../img/diplomatura-dae/header-diplo-dae.png');
       background-size: cover;
-      background-repeat: no-repeat;  
+      background-repeat: no-repeat;
+      background-position: center;  
+      background-position: 24% 50%; 
     }
   }
 
@@ -57,10 +59,11 @@
     color: #fff;
   }
   @media (max-width: 425px) {
-    #diplo-bim .banner {
+    #diplo-bim #banner {
       background: url('../img/diplomatura-bim/header-diplo-bim.png');
       background-size: cover;
-      background-repeat: no-repeat;  
+      background-repeat: no-repeat;
+      background-position: 23% 50%;   
     }
   }
 
@@ -76,10 +79,11 @@
     color: #fff;
   }
   @media (max-width: 425px) {
-    #diplo-go .banner {
+    #diplo-go #banner {
       background: url('../img/diplomatura-go/header-diplo-go.png');
       background-size: cover;
       background-repeat: no-repeat;  
+      background-position: 23% 50%; 
     }
   }
 
@@ -97,10 +101,11 @@
     color: #fff;
   }
   @media (max-width: 425px) {
-    #revit-inicial .banner {
+    #revit-inicial #banner {
       background: url('../img/revit-inicial/header-revitinicial.png');
       background-size: cover;
       background-repeat: no-repeat;  
+      background-position: 20% 50%;  
     }
   }
 
@@ -117,10 +122,11 @@
     color: #fff;
   }
   @media (max-width: 425px) {
-    #revit-mep .banner {
+    #revit-mep #banner {
       background: url('../img/revit-mep/header-revitmep.png');
       background-size: cover;
       background-repeat: no-repeat;  
+      background-position: 20% 50%; 
     }
   }
 

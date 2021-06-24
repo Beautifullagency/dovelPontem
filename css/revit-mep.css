@@ -31,9 +31,10 @@
     width: 80%;
   }
   .sec-2-2 img {
-      width: 150px;
-      height: 150px;
-  }
+    margin: 0 10PX 0 20PX;
+    width: 100px;
+    height: 100px;
+}
   .btn-sec-2-1 {
     background: #fff;
     border-radius: 25px;
