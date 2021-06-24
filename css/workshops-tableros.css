@@ -1,0 +1,116 @@
+/*SECCION 1*/
+#work-tableros .sec-1 {
+    background-color: transparent;
+  }
+  
+  #work-tableros .cat1-img {
+    background-image: url('../img/workshop-tableros/logo-last.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+  }
+  
+  .sec-2-1 {
+    background: url('../img/workshop-tableros/sec-2-fondo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 238px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 3px 36px #0000001A;
+  }
+  .sec-2-2 {
+    background: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 238px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 3px 36px #0000001A;
+  }
+  .sec-2-1 a , .sec-2-2 a{
+    width: 80%;
+  }
+  .sec-2-2 img {
+      margin: 0 10PX 0 20PX;
+      width: 100px;
+      height: 100px;
+  }
+  .btn-sec-2-1 {
+    background: #fff;
+    border-radius: 25px;
+    width: 100%;
+    color: #C9A967;
+    border: none;
+    padding: 5px 0px;
+  }
+  .btn-sec-2-2 {
+    background: #fff;
+    border-radius: 25px;
+    width: 100%;
+    color: #C9A967;
+    border: #C9A967 solid 1px;
+    padding: 5px 0px;
+  }
+  .sec-3 {
+      width: 100%;
+      height: 100%;
+  }
+  .img-sec-3 {
+      width: 100%;
+  }
+  
+  
+  
+  
+  form {
+      margin: 0 auto;
+      width: 100%;
+    }
+    label {
+      /* Tamaño y alineación uniforme */
+      display: inline-block;
+      width: 100%;
+      text-align: left;
+    }
+    input,
+    textarea {
+      color: #343a40;
+      width: 100%;
+      box-sizing: border-box;
+      background-color: #fff;
+      border: none;
+      border-radius: 5px;
+      height: 40px;
+      margin-bottom: 20px !important;
+      padding: 15px;
+    }
+    input:focus,
+    textarea:focus {
+      outline: none;
+      border: 1px solid#C9A967;
+    }
+    textarea {
+      vertical-align: top;
+      resize: none !important;
+      height: 5em;
+    }
+    
+    .form-logo{
+      width: 50%;
+    }
+    .btn-form {
+      width: 80%;
+      background-color: #C9A967;
+      color: #fff;
+      border-radius: 25px;
+      box-shadow: 1px 20px 45px #0000001a;
+      border: none;
+    }
+    .img-form {
+      height: 100%;
+      margin: auto 0 auto 40px;
+    }
+    .cat-form {
+      width: 100%;
+    }
