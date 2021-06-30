@@ -1,0 +1,146 @@
+#nosotros .sec-1 {
+    background-color: transparent;
+  }
+  
+  #nosotros .cat1-img {
+    background-image: url('../img/nosotros/caja-logo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  #nosotros .cat2-img {
+    background-image: url('../img/nosotros/que-hacemos.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .sec3 {
+      max-width: 900px !important;
+  }
+  
+  .box{
+      background-color: #fff;
+      box-shadow: 0px 3px 36px #00000029;
+      margin: 0 10px 0 10px;
+      border-radius: 8px;
+      padding: 35px !important;
+  }
+
+  #owl-contacto {     
+      height: 100px;
+  }
+  .item img {
+    width: auto;
+    height: 90px;
+    background-color: #fff;
+  }
+  
+  #owl-contacto .owl-nav{
+    top: 0;
+    width: 100%;
+    font-size: 40px;
+  }
+  #owl-contacto.owl-carousel .owl-nav button.owl-next {
+   position: absolute;
+   top: 0;
+   bottom:0;
+   right: -30px;
+  }
+  #owl-contacto.owl-carousel .owl-nav button.owl-next span , #owl-contacto.owl-carousel  .owl-nav button.owl-prev span{
+   color: #757575;
+   font-size: 52px;
+  }
+  #owl-contacto.owl-carousel  .owl-nav button.owl-prev {
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left: -30px;
+   }
+
+.sec5 {
+  max-width: 600px !important;
+ 
+}
+.card-sec5{
+  padding: 20px !important;
+background-color: #fff;
+box-shadow: 0px 5px 36px #00000029;
+border-radius: 8px;
+margin-right: 20px;
+}
+.btn-in{
+  color: #C9A967;
+  background-color: transparent;
+  border: 1px solid var(--unnamed-color-c9a967);
+  box-shadow: 0px 5px 45px #00000026;
+  border: 1px solid #C9A967;
+  border-radius: 25px;
+  opacity: 1;
+  padding: 5px 0 5px 0;
+  width: 70%;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  form {
+      margin: 0 auto;
+      width: 100%;
+    }
+    label {
+      /* Tamaño y alineación uniforme */
+      display: inline-block;
+      width: 100%;
+      text-align: left;
+    }
+    input,
+    textarea {
+      color: #343a40;
+      width: 100%;
+      box-sizing: border-box;
+      background-color: #fff;
+      border: none;
+      border-radius: 5px;
+      height: 40px;
+      margin-bottom: 20px !important;
+      padding: 15px;
+    }
+    input:focus,
+    textarea:focus {
+      outline: none;
+      border: 1px solid#C9A967;
+    }
+    textarea {
+      vertical-align: top;
+      resize: none !important;
+      height: 5em;
+    }
+    
+    .form-logo{
+      width: 50%;
+    }
+    .btn-form {
+      width: 80%;
+      background-color: #C9A967;
+      color: #fff;
+      border-radius: 25px;
+      box-shadow: 1px 20px 45px #0000001a;
+      border: none;
+    }
+    .img-form {
+      height: 100%;
+      margin: auto 0 auto 40px;
+    }
+    .cat-form {
+      width: 100%;
+    }

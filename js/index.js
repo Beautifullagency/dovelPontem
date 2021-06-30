@@ -68,7 +68,34 @@ $("#owl2").owlCarousel({
 
 
 
-
+$("#owl-contacto").owlCarousel({
+  autoplayTimeout: 3000,
+  autoplayHoverPause: true,
+  autoplaySpeed: 1000,
+  autoHeight: false,
+  responsiveClass: true,
+  loop: false,
+  responsive: {
+    0: {
+      margin: 10,
+      items: 2,
+      nav: false,
+      dots: true,
+    },
+    600: {
+      margin: 10,
+      items: 4,
+      nav: true,
+      dots: false,
+    },
+    1024: {
+      margin: 10,
+      items: 4,
+      nav: true,
+      dots: false,
+    },
+  },
+});
 
 /*Form de cv */
 if (document.querySelector('#file')) {
@@ -111,7 +138,7 @@ const item = document.querySelectorAll('#item')
 const itemPane = document.querySelectorAll('#item-pane')
 
 
-for (let i = 1; i < 7; i++) {
+for (let i = 1; i < 10; i++) {
   $(`#item${i}`).hover(
     function () {
       $(`#item-pane${i}`).animate({ 'height': '100%' }, 600)
@@ -137,5 +164,8 @@ const starTotal = 5;
 for (const rating in ratings) {
   const starPercentage = (ratings[rating] / starTotal) * 100;
   const starPercentageRounded = `${(Math.round(starPercentage / 10) * 10)}%`;
-  document.querySelector(`.${rating} .stars-inner`).style.width = starPercentageRounded;
+  if (document.querySelector(`.${rating} .stars-inner`)) {
+    document.querySelector(`.${rating} .stars-inner`).style.width = starPercentageRounded;
+  }
+  
 }
