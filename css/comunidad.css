@@ -1,0 +1,31 @@
+.btn-contenido {
+  background-color: #c9a967;
+  color: #fff;
+  width: 100%;
+  box-shadow: 0px 5px 45px #0000001a;
+  border-radius: 25px;
+  border: none;
+  padding: 5px 0 5px 0;
+}
+.btn-contenido-a{
+    width: 30%;
+}
+.textred {
+    color: #F16550;
+}
+.textgreen {
+    color: #4EC67F;
+}
+
+.video {
+    width: 100%;
+}
+.w-500 {
+    width: 50% !important;
+}
+
+@media (max-width: 425px) {
+    .w-500 {
+        width: 75% !important;
+    } 
+}

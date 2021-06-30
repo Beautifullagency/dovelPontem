@@ -236,3 +236,25 @@
       background-position: 20% 50%;  
     }
   }
+
+   /*COMUNIDAD*/
+
+   #comunidad #banner {
+    margin-top: 71px;
+    width: 100%;
+    height: 350px;
+    background: url("../img/comunidad/header-comunidad.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #fff;
+  }
+  @media (max-width: 425px) {
+    #comunidad #banner {
+      background: url('../img/comunidad/header-comunidad.png');
+      background-size: cover;
+      background-repeat: no-repeat;  
+      background-position: 20% 50%;  
+    }
+  }
